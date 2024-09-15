@@ -16,7 +16,7 @@ button:focus {
 
 /* -------- BODY DISPLAY --------- */
 body {
-  background-color: #222;
+  background-color: #394939;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -38,7 +38,7 @@ body {
 }
 
 .container .box span {
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5) 90%, transparent);
+  background: linear-gradient(90deg, rgba(58, 58, 58, 0.1), rgba(0, 0, 0, 0.5) 90%, transparent);
   text-transform: uppercase;
   line-height: 0.76em;
   position: absolute;
@@ -48,7 +48,7 @@ body {
   font-weight: bold;
   padding: 0px 10px;
   transform-style: preserve-3d;
-  text-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+  text-shadow: 0 10px 15px rgba(0, 0, 0, 0.027);
   transform: translate(-50%, -50%) rotateX(calc(var(--i) * 22.5deg)) translateZ(109px);
 }
 
@@ -57,11 +57,11 @@ body {
 }
 
 .container .box span i:nth-child(1) {
-  color: #5c5fc4;
+  color: #3e8bff;
 }
 
 .container .box span i:nth-child(2) {
-  color: #c4c15c;
+  color: #00da24;
 }
 
 @keyframes animate {
@@ -70,7 +70,7 @@ body {
   }
 
   100% {
-    transform: perspective(50px) rotateX(360deg) rotate(5deg);
+    transform: perspective(50px) rotateX(270deg) rotate(5deg);
   }
 }
 
